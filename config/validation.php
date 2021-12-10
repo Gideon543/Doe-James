@@ -1,5 +1,5 @@
 <?php
- 
+namespace controllers;
     class Validation{
         //Track number of errors
         public static $totalErrors;
