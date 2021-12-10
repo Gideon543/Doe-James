@@ -1,0 +1,157 @@
+/* LOGIN PAGE */
+* {
+  margin: 0;
+}
+body {
+  background-color: #fff;
+  width: 100%;
+}
+
+.login-main {
+  display: flex;
+}
+.cus-but a {
+  color: #fff;
+  text-decoration: none;
+}
+.cus-but a:hover,
+.cus-but a:visited,
+.cus-but a:active {
+  color: rgb(231, 229, 229);
+  text-decoration: none;
+}
+
+.column {
+  flex: 50%;
+  height: 100vh;
+}
+
+.login-wrapper {
+  /* background-color: #851c2a; */
+  /* display: flex; */
+  width: 100%;
+  height: 100vh;
+  /* height: 50%; */
+  /* align-items: center; */
+  /* justify-content: center;
+  flex-direction: column; */
+}
+
+.login-wrapper h1 {
+  color: #fff;
+}
+
+.login-wrapper img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+.form-control {
+  width: 500px;
+}
+
+.form-text a,
+.details a {
+  text-decoration: none;
+  color: rgb(0, 200, 5);
+}
+
+/* Centering forms */
+.col {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Button */
+.login {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+}
+
+.details {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+.btn-primary {
+  background-color: rgb(0, 200, 5);
+  width: 150px;
+  font-size: 16px;
+  letter-spacing: -0.1px;
+}
+
+.btn-primary:hover {
+  background-color: rgba(0, 180, 5, 1);
+}
+
+.custom-nav {
+  width: 100%;
+}
+
+.custom-brand {
+  align-items: center;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #851c2a;
+  border-color: #851c2a;
+  margin-left: 30px;
+}
+
+.custom-btn-1 {
+  padding: 0 20px;
+}
+
+.footer-main {
+  background-color: #851c2a;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  height: 3%;
+  align-items: center;
+}
+
+.fab {
+  font-size: 20px;
+}
+
+.custom-brand {
+  align-items: center;
+}
+
+.custom-brand a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.e-btn {
+  background-color: #851c2a;
+}
+
+.e-btn:hover {
+  background-color: #851c2ac4;
+}
+
+.error {
+  color: red;
+}
+
+@media screen and (max-width: 550px) {
+  .btn-danger {
+    margin-left: 0;
+  }
+
+  .custom-btn-1 {
+    margin-right: 12px;
+  }
+}

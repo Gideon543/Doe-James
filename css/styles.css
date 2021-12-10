@@ -1,0 +1,204 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-profile i {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.user-profile a {
+  padding: 0 0;
+  text-decoration: none;
+}
+
+.main-content {
+  float: right;
+  width: 80%;
+  height: 100%;
+}
+
+.title h1 {
+  background-color: rgb(122, 16, 16);
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+}
+
+.name-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(122, 16, 16);
+  margin-bottom: 20px;
+}
+
+.profile {
+  height: 150px;
+  /* width:150px ; */
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid rgb(122, 16, 16);
+}
+
+.person-col {
+  margin: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-bottom: 20px;
+}
+
+.person-col:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: 0.3s;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+===================================================================================================================
+CPAs SECTION
+=====================================================================================================================
+*/
+.cpa-card {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cpa-card:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: 0.3s;
+}
+.profile-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.im-c {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+.cpa-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid rgb(122, 16, 16);
+}
+.cpa-name {
+  align-self: center;
+  border-bottom: 1px solid rgb(122, 16, 16);
+  padding-left: 10px;
+}
+
+.table .bi-pencil-square {
+  font-size: 20px;
+  color: #ca8a12;
+  margin: 0 5px;
+}
+.table .bi-trash {
+  font-size: 20px;
+  color: #be1028;
+  margin: 0 5px;
+}
+
+.table {
+  color: rgb(129, 129, 129) !important;
+  transition: 0.5em;
+}
+
+.table th:hover,
+.table tr:hover {
+  background-color: rgb(248, 246, 246);
+  transition: 0.5s;
+}
+
+.dash-row {
+  margin-top: 25px;
+}
+
+.dash-row .col-sm {
+  height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid rgb(192, 192, 192);
+  color: rgb(100, 100, 100);
+  font-size: 12px;
+}
+
+.dash-row .col-sm:hover {
+  background-color: #fff;
+}
+
+.dash-row .col-sm i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.num-count {
+  color: #721925;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+/* #add-btn {
+  position: fixed;
+  font-size: 40px;
+  padding: 5px;
+  right: 40px;
+  bottom: 30px;
+  color: rgb(26, 97, 28);
+} */
+
+.search-c {
+  /* border-bottom: 1.5px solid rgb(192, 192, 192); */
+  padding-top: 20px;
+}
+
+.search-c input {
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+}
+
+.search-c input:focus {
+  background-color: rgb(243, 243, 243);
+  outline: none;
+  transition: 0.3s;
+}
+
+.search-c button {
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+  border: none;
+}
+.btn-custum-color {
+  background-color: rgb(8, 153, 12) !important;
+  color: #fff !important;
+}
+
+/* Profile */
+.profile-content {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+}

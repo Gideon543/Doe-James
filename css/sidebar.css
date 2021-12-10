@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+.sidebar {
+  width: 20%;
+  float: left;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(26, 97, 28);
+  color: #fff;
+}
+
+.sidebar .nav-item i {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.navbar-brand img {
+  width: 100px;
+}
+
+.sidebar a:hover {
+  background-color: rgb(26, 97, 28);
+  color: rgb(179, 179, 179);
+  transition: 0.5em;
+}
+a:active,
+a:active:visited {
+  color: rgb(26, 97, 28);
+}
+/* 
+.logo-c{
+    text-align: center;
+} */
