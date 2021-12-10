@@ -1,5 +1,5 @@
 <?php
-
+namespace controllers;
     require __DIR__."/../config/validation.php";
 	require __DIR__."/../config/authentication.php";
     

@@ -9,6 +9,7 @@ Date completed:  November, 2021
 */
 ?>
 <?php
+namespace controllers;
     session_start();
     // if(!isset($_SESSION['valid_user'])){
     //     header("Location: login.php");
@@ -19,6 +20,7 @@ Date completed:  November, 2021
 
 <!--SIDEBAR-->
 <?php 
+
     require_once('sidebar.php');
     require_once __DIR__."/../controllers/orders_controller.php";
 ?>
