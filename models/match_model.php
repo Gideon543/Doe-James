@@ -1,4 +1,5 @@
 <?php
+namespace controllers;
     require __DIR__."/../config/database_connection.php";
     class MatchCompanyModel extends DatabaseConnection{
         

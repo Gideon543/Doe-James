@@ -1,4 +1,5 @@
 <?php
+namespace controllers;
     require __DIR__."/../config/database_connection.php";
     class OrdersModel extends DatabaseConnection{
         
@@ -17,16 +18,6 @@
             WHERE client_id = $client_id";           
             $result = mysqli_query($this -> connect(), $sql);
             return $result;
-        }
-
-        //Select a particular order
-        protected function fetchAnOrder(){
-
-        }
-
-        //Update an order
-        protected function updateAnOrder(){
-
         }
 
         //Delete an order
