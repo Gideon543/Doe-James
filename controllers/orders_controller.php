@@ -1,4 +1,5 @@
 <?php
+namespace controllers;
     require __DIR__."/../models/orders_model.php";
 
     class OrdersController extends OrdersModel{
@@ -12,17 +13,6 @@
         public function displayAllOrders($client_id){
             $results = $this -> fetchAllOrders($client_id);
             return mysqli_fetch_all($results, MYSQLI_ASSOC);
-        }
-
-        //Display a particular order
-        public function displayAnOrder(){
-            $results = $this -> fetchAnOrder();
-            return mysqli_fetch_all($results, MYSQLI_ASSOC);
-        }
-
-        //Change details of an order
-        public function changeOrder(){
-            $results = $this -> updateAnOrder();
         }
 
         //Remove an order

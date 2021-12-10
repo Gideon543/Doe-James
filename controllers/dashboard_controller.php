@@ -1,5 +1,5 @@
 <?php
-
+namespace controllers;
     require __DIR__."/../models/dashboard_model.php";
 
     class DashController extends DashModel{
