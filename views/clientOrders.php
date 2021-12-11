@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-<?php 
+<?php
+namespace controllers; 
 /*
 *********************************************************************************
 A Web Site for Ashesi Career Services Department
@@ -10,7 +10,6 @@ Date completed:  November, 2021
 */
 ?>
 <?php
-namespace controllers;
     session_start();
     if(!isset($_SESSION['valid_user'])){
         header("Location: login.php");

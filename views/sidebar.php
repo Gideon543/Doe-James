@@ -84,7 +84,7 @@ Date completed: 10th November, 2021
 <aside class="sidebar">
     
     <div class="logo-c">
-        <a class="navbar-brand" href="dashboard.php"><img src="../assets/images/dow_jones.png" alt=""></a>
+        <a class="navbar-brand" href="dashboard.php"><img src="../assets/images/Doe James.jpg" alt=""></a>
     </div>
     <ul class="nav flex-column">
         <li class="nav-item">
