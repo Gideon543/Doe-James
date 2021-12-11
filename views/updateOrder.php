@@ -1,4 +1,5 @@
 <?php
+namespace controllers;
      require __DIR__."/../controllers/orders_controller.php";
 ?>
 

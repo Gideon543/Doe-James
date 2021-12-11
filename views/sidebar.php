@@ -12,11 +12,22 @@ Date completed: 10th November, 2021
 
 ?>
 
+<?php
+// Checks if the user clicked the logout button
+  if (isset($_GET['logout'])) {
+    session_destroy();
+  	unset($_SESSION['valid_user']);
+    unset($_SESSION['user_id']);
+  	header("location: login.php");
+  }
+?>
+
+
 <!---SIDEBAR-->
 <aside class="sidebar">
     
     <div class="logo-c">
-        <a class="navbar-brand" href="dashboard.php"><img src="../assets/images/dow_jones.png" alt=""></a>
+        <a class="navbar-brand" href="dashboard.php"><img src="../assets/images/Dow James.png" alt=""></a>
     </div>
     <ul class="nav flex-column">
         <li class="nav-item">
@@ -37,10 +48,7 @@ Date completed: 10th November, 2021
         </li>
 
         <li class="nav-item">
-            <form method = "POST" action="">
-            <a class="nav-link" type = "submit"href="login.php"><i class="bi bi-box-arrow-left"></i>LOG OUT</a>
-            </form>
-            <a class="nav-link" href="login.php"><i class="bi bi-box-arrow-left"></i>LOG OUT</a>
+            <a class="nav-link" href="login.php?logout = '1'"><i class="bi bi-box-arrow-left"></i>LOG OUT</a>
         </li>
     </ul>
 </aside>

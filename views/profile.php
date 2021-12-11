@@ -1,4 +1,5 @@
 <?php 
+namespace controllers;
 /*
 *********************************************************************************
 A Web Site for Ashesi Career Services Department
@@ -12,7 +13,7 @@ Date completed:  November, 2021
 <?php
     session_start();
     if(!isset($_SESSION['valid_user'])){
-        header("Location: login.php");
+        header("Location: index.php");
     }
         
     $client_id = $_SESSION['user_id'];   

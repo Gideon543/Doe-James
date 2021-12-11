@@ -1,4 +1,5 @@
 <?php
+namespace controllers;
     require __DIR__."/../config/database_connection.php";
 
     class ClientModel extends DatabaseConnection{
@@ -65,6 +66,7 @@
             "INSERT INTO `clients`(`client_fname`, `client_lname`, `password`, `client_email`) 
             VALUES ('$fname','$lname','$pass','$email')"
            );
+           return $results;
        }
 
        //Find the best match for client

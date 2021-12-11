@@ -1,4 +1,6 @@
 <?php
+
+namespace controllers;
     require __DIR__."/../models/client_model.php";
 
     class ClientController extends ClientModel{
@@ -8,6 +10,7 @@
         // , $address, $risk_tol, $debts, $networth, $profit_p, $location
         public function addClient ($fname, $lname, $pass, $email){
             $results = $this -> insertClient($fname, $lname, $pass, $email);
+            return $results;
         }
         
         //Access a client by id

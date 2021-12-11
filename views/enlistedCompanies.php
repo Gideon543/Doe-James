@@ -1,4 +1,5 @@
 <?php 
+namespace controllers;
 /*
 *********************************************************************************
 A Web Site for Ashesi Career Services Department

@@ -1,7 +1,7 @@
 <?php
 # Database connection variables
-    define("SERVERNAME", "localhost:3307");
+    define("SERVERNAME", "localhost");
     define("USERNAME", "root");
     define("PASSWORD", "");
-    define("DATABASE", "dow_jones_db");
+    define("DATABASE", "DOW_JONES_DB");
 ?>

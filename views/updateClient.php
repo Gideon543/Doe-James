@@ -1,24 +1,23 @@
-
-
 <?php
+namespace controllers;
     require __DIR__."/../controllers/client_controller.php";
     require_once('sidebar.php');
 ?>
 
+<?php
+    session_start();
+    if(!isset($_SESSION['valid_user'])){
+        header("Location: index.php");
+    }  
+    $client_id = $_SESSION['user_id'];   
+?>
 
 <!--Getting current details of client for display-->
 <?php
     $clientObj = new ClientController();
     //$client_id = $_GET["id"];
-    $clientDetails = $clientObj -> displayClient(1012);
+    $clientDetails = $clientObj -> displayClient($client_id);
 ?>
-
-
-
-<!--Form-->
-
-<!--End Of Form-->
-
 
 
 <!--Changing details of the clients-->
@@ -34,7 +33,7 @@
         $risk_tol =  $_POST['risk'];
         $profit_p =  $_POST['profit_p'];
 
-        $results = $clientObj -> changeClient(1012, $fname, $lname, $email , $address, $risk_tol, $debts, $networth, $profit_p, $location);
+        $results = $clientObj -> changeClient($client_id, $fname, $lname, $email , $address, $risk_tol, $debts, $networth, $profit_p, $location);
         header("Location: profile.php");
     }
 ?>

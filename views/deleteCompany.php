@@ -1,4 +1,5 @@
 <?php
+namespace controllers;
     require __DIR__."/../controllers/company_controller.php";
 
     //Get client id from url

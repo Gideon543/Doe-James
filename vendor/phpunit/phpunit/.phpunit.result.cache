@@ -1,0 +1,1 @@
+{"version":1,"defects":{"UserTest::testforRegistration":4,"UserTest::testAccessToEmailPassword":4,"UserTest::testGetCompanies":4,"DashTest::testGetCompanies":4},"times":{"UserTest::testforRegistration":4.057,"UserTest::testAccessToEmailPassword":4.062,"UserTest::testGetCompanies":0.002,"DashTest::testGetCompanies":0.008}}

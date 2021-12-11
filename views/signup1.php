@@ -1,4 +1,5 @@
 <?php
+namespace controllers;
     require __DIR__."/../config/validation.php";
     require __DIR__."/../config/authentication.php";
     
@@ -33,12 +34,11 @@
         
         //Get number of errors
         $errorCount = $valid -> getErrorCount();
-
-        echo $errorCount;
         
 
         //Register if email is not taken.
         $authenticate->registerUser($errorCount, $fname, $lname, $password, $email);
+        header("Location: index.php");
     }
 ?>
 

@@ -1,5 +1,5 @@
 <?php
-
+namespace controllers;
     require __DIR__."/../models/client_model.php";
 
     class DashModel extends ClientModel{

@@ -1,4 +1,5 @@
 <?php
+namespace controllers;
     require __DIR__."/../controllers/client_controller.php";
 
     $clientObj = new ClientController();

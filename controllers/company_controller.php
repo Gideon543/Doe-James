@@ -1,4 +1,5 @@
 <?php
+namespace controllers;
     require __DIR__."/../models/company_model.php";
 
     class CompanyController extends CompanyModel{
@@ -40,7 +41,7 @@
 
         //Display all client orders
         public function displayAllOrders(){
-            selectAllOrders();
+            $this ->selectAllOrders();
         }
 
     }
