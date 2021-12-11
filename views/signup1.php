@@ -37,7 +37,7 @@ namespace controllers;
         
 
         //Register if email is not taken.
-        $authenticate->registerUser($errorCount, $fname, $lname, $password, $email);
+        $authenticate->registerUser($errorCount, $fname, $lname, base64_encode($password), $email);
         header("Location: index.php");
     }
 ?>
