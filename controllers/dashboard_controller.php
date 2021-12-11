@@ -12,8 +12,8 @@ namespace controllers;
         }
 
         //Display Top 5 companies based on assets valuation
-        public function getOrders(){
-            $results = $this -> totalOrders();
+        public function getOrders($client_id){
+            $results = $this -> totalOrders($client_id);
             $orders = mysqli_fetch_all($results, MYSQLI_ASSOC);
             return $orders[0]["COUNT(1)"];
         }

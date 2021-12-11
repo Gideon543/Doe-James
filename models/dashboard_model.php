@@ -13,9 +13,9 @@ namespace controllers;
         }
 
         //Fetch top 5 companies based on assets valuation
-        protected function totalOrders(){
+        protected function totalOrders($client_id){
             $results = mysqli_query($this -> connect(), 
-            "SELECT COUNT(1) FROM `orders`"
+            "SELECT COUNT(1) FROM `orders` WHERE `client_id` =  $client_id"
             );
             return $results;
         }

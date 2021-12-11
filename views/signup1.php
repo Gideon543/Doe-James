@@ -94,7 +94,7 @@ namespace controllers;
 
                     <div class="mb-4">
 						<input type="password" placeholder ="Confirm password" class = "form-control" id="email" name="confirm"/>
-                        <!-- <small class = "error"><?=$confirmError?></small>			 -->
+                        <small class = "error"><?=$confirmError?></small>			
 					</div>
                     
                     <div class="form-text">
@@ -104,7 +104,7 @@ namespace controllers;
                     <div class="login mb-3 details">
 						<button type="submit" class="btn btn-primary btn-lg mt-5 px-4" name="submit">Sign Up</button>
                         <p class ="ms-3">Already have an account? </p>
-                        <a href="index.php" class ="ms-1"> Log in</a>
+                        <a href="../index.php" class ="ms-1"> Log in</a>
 					</div>
 				</form>
 			</div>

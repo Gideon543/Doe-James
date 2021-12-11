@@ -39,7 +39,7 @@ Date completed:  November, 2021
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CASSAP</title>
+    <title>Dow James | Profile</title>
     <!--Styles.css-->
     <link rel="stylesheet" href="../css/styles.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../css/sidebar.css?v=<?php echo time(); ?>">
@@ -55,7 +55,7 @@ Date completed:  November, 2021
     <div class="main-content">
         <div class="profile-content">
             <div class="profile-img">
-                <a href = ""><img src="../assets/images/logo1.png" alt=""></a>
+                <a href = ""><img src="../assets/images/dow_jones.png" alt=""></a>
             </div>
 
             <div class="profile-info">
