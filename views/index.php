@@ -27,14 +27,12 @@ namespace controllers;
 			session_start();
             $_SESSION['user_id'] =  $getClientId;
 			$_SESSION['valid_user'] = true;
-			header("Location: dashboard.php");
-
+			header("location: dashboard.php");
 		}else{
 			$_SESSION['faulty'] = "Incorrect email or password. Try again!";
 		}
     }
 ?>
-
 
 <!-- HTML begins here -->
 <!DOCTYPE html>
