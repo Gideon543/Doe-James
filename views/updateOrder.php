@@ -8,7 +8,7 @@ namespace controllers;
 <?php
     $orderObj = new OrdersController();
     $order_id = $_GET["id"];
-    $orderDetails = $orderObj -> displayAnOrder($order_id);
+   // $orderDetails = $orderObj -> displayAnOrder($order_id);
 ?>
 
 
@@ -30,7 +30,7 @@ namespace controllers;
         $bio =  $_POST['bio'];
         $booking_link =  $_POST['booking-link'];
 
-        $results = $orderObj -> changeOrder();
+        //$results = $orderObj -> changeOrder();
        //header("Location: advisors.php");
     }
 ?>
