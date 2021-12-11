@@ -1,6 +1,6 @@
 <?php
 namespace controllers;
-    require "./models/client_model.php";
+    require __DIR__."/../models/client_model.php";
 
     class ClientController extends ClientModel{
         
