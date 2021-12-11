@@ -17,6 +17,7 @@ namespace controllers;
 			if($errorCount == 0){
 				if($this-> availableEmail($email)){
 					$results = $this -> addClient($fname, $lname, $pass, $email);
+					header("location: index.php");
 				}else{
 					echo '<script type ="text/JavaScript">';  
 					echo 'alert("Email is already taken. Try again")'; 

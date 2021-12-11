@@ -38,7 +38,6 @@ namespace controllers;
 
         //Register if email is not taken.
         $authenticate->registerUser($errorCount, $fname, $lname, base64_encode($password), $email);
-        header("location: index.php");
     }
 ?>
 
@@ -105,7 +104,7 @@ namespace controllers;
                     <div class="login mb-3 details">
 						<button type="submit" class="btn btn-primary btn-lg mt-5 px-4" name="submit">Sign Up</button>
                         <p class ="ms-3">Already have an account? </p>
-                        <a href="login.php" class ="ms-1"> Log in</a>
+                        <a href="index.php" class ="ms-1"> Log in</a>
 					</div>
 				</form>
 			</div>

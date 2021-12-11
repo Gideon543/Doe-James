@@ -14,7 +14,7 @@ namespace controllers;
             }
         }
 
-        //Checks user email for the rigth format
+        //Checks user email for the right format
         public function checkEmail($email){
             GLOBAL $totalErrors;
             if(empty($email)){

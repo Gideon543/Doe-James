@@ -48,7 +48,7 @@ Date completed: 10th November, 2021
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="login.php?logout = '1'"><i class="bi bi-box-arrow-left"></i>LOG OUT</a>
+            <a class="nav-link" href="index.php?logout = '1'"><i class="bi bi-box-arrow-left"></i>LOG OUT</a>
         </li>
     </ul>
 </aside>
