@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 <?php 
-namespace controllers;
+    namespace controllers;
 /*
 *********************************************************************************
 A Web Site for Ashesi Career Services Department
@@ -9,6 +8,9 @@ Date started: 10th November, 2021
 Date completed:  November, 2021
 **********************************************************************************
 */
+
+use controllers\DashController;
+
 ?>
 
 <!--SIDEBAR-->
@@ -26,6 +28,7 @@ Date completed:  November, 2021
 <?php
     require __DIR__."/../controllers/dashboard_controller.php";
     require_once('sidebar.php');
+    
     $countObj = new DashController();
     $totalCompanies = $countObj -> getCompanies();
     $totalOrders = $countObj -> getOrders();
