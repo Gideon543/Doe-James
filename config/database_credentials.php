@@ -3,5 +3,5 @@
     define("SERVERNAME", "localhost");
     define("USERNAME", "root");
     define("PASSWORD", "@Heriosd3456");
-    define("DATABASE", "DOW_JONES_DB");
+    define("DATABASE", "Dow_Jones_DB");
 ?>
