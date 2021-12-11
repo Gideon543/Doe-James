@@ -15,7 +15,7 @@ Date completed:  November, 2021
 
     session_start();
     if(!isset($_SESSION['valid_user'])){
-        header("Location: login.php");
+        header("location: login.php");
     }
         
     $client_id = $_SESSION['user_id'];   

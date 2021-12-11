@@ -23,7 +23,7 @@ namespace controllers;
 
 
 		$getClientId = '';
-		if($authenticate -> loginUser($email, $password, $getClientId)){
+		if($authenticate -> loginUser($email, base64_encode($password), $getClientId)){
 			session_start();
             $_SESSION['user_id'] =  $getClientId;
 			$_SESSION['valid_user'] = true;
