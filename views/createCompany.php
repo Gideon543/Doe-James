@@ -13,7 +13,7 @@ require __DIR__."/../controllers/company_controller.php";
         $booking_link = $_POST['booking-link']; 
 
         
-        $results = $companyObj -> addCompany($name, $bio, $class, $email , $tel, $booking_link);
+        //$results = $companyObj -> addCompany($name, $bio, $class, $email , $tel, $booking_link);
         //header("Location: advisors.php");
     }
 ?>
